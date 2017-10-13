@@ -16,3 +16,8 @@ Additionally, `linking.sh` builds executable pack which contains only required j
 (compile and package the code using `compile.sh` and `package.sh` before running this script).
 A script 'run-linked.sh' launches main class from this pack.
 The result is the same as running a `run.sh` script.
+
+Using with docker:
+  docker build . --tag j9
+  docker run j9
+  docker run j9 sleep 50000
