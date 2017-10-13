@@ -19,6 +19,8 @@ The result is the same as running a `run.sh` script.
 
 Using with docker:
 
-  docker build . --tag j9
-  docker run j9
-  docker run j9 sleep 50000
+```
+docker build . --tag j9
+docker run j9
+docker run j9 sleep 50000
+```
